@@ -33,8 +33,8 @@ for i in range(len(artist_name)):  # Проходимся по всем арти
 print(f"Количество российских исполнителей: {len(russian_artists)}")
 print(f"Количество иностранных исполнителей: {len(foreign_artists)}")
 
-f_rus = open('russian_artists.txt', mode='w')
-f_for = open('foreign_artists.txt', mode='w')
+f_rus = open('russian_artists.txt', mode='w', encoding='utf-8')
+f_for = open('foreign_artists.txt', mode='w', encoding='utf-8')
 # Запись содержимого обоих списков в файлы
 for el in russian_artists:
     f_rus.write(f'{el}\n')
