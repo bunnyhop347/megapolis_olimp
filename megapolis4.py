@@ -40,4 +40,3 @@ for el in russian_artists:
     f_rus.write(f'{el}\n')
 for el in foreign_artists:
     f_for.write(f'{el}\n')
-
